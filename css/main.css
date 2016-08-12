@@ -1,0 +1,314 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: #2D2735;
+}
+
+.f-morado-oscuro{
+	background-color: #1C1821;
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F7B96A;	
+}
+
+/*Header*/
+
+header {
+	background-color: #1C1821;
+	height: 
+}
+
+header .logo{
+	color: white;
+	float:left;
+	width: 280px;
+	height: auto;
+}
+
+#icono-nav{
+	display: none;
+	}
+
+header {
+	overflow: hidden;
+}
+
+header nav {
+	float: right;
+
+}
+header nav a {
+	display: inline-block;
+	color: #FFFFFF;
+	font-style: italic;
+	text-decoration: none;
+	padding: 30px 20px;
+}
+
+header nav a:hover{
+	color: #F7B96A;
+}
+
+/* Imagen Principal */
+
+#main {
+	background-color: #2D2735; 
+	padding: 55px 0px;
+
+}
+
+.principal {
+	background: url(../image/header-image.jpg) no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding: 75px 150px;
+}
+
+.info-main {
+	width: 100%;
+	background-color: #1C1821;
+	color: #FFFFFF;
+	text-align: center;
+	margin: auto 0;
+}
+
+.info-main h1{
+	font-size: 90px;
+	font-family: 'Courgette';
+	color: #F7BA6A;
+	padding: 40px 0px;
+}
+
+.info-main p{
+	padding-bottom: 30px;
+}
+
+.info-main a{
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 0px 20px 0px 20px;
+	font-style: italic;
+}
+
+.info-main a:hover{
+	color: #F7B96A;
+}
+
+/* Articulos */
+
+#articulos {
+	height: auto;
+	text-align: center;
+	background-color: #2D2735;
+}
+
+.art{
+	margin: 4px 10px;
+	padding-bottom: 10px;
+	background-color: #1C1821;
+}
+
+.art img {
+	width: 100%;
+	overflow: hidden;
+}
+
+.subtitulo{
+	color: #F7BA6A;
+	font-size: 22px;
+	font-family: 'Courgette';
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.fecha{
+	color: #FFFFFF;
+	font-style: italic;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+/* Informacion Adicional */
+
+.marg-adicional {
+	margin: 30px 0px;
+}
+
+.buscar{
+	background-color: #1C1821;
+	height: 70px;
+	margin-bottom: 20px;
+}
+
+.parrafo{
+	color: #FFFFFF;
+	text-align: left;
+	padding: 10px 20px 30px 15px;
+} 
+
+form {
+	margin: auto 0px;
+  padding: 10px 5px;
+}
+
+.sociales{
+	padding: 0px 0px 15px 15px;
+}
+
+.nombre{
+	background: #2D2735;
+	width: 80%;
+	height: 35px;
+	background-size:10% 70%;
+	background-position:2px;
+	padding-left: 5%;
+	margin-bottom: 15px;
+	margin: 10px 40px;
+	border-radius: 4px;
+}
+
+.perfil-info2{
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.circulo-social{
+  width: 30px;
+  height: 30px;
+	background-color: #2D2735;
+	border-radius: 50%;
+}
+.social-deco {
+	color: #FFFFFF;
+	font-size: 18px;
+	padding: 6px 8px;
+	margin: auto 0;
+}
+
+/* Footer */
+
+footer{
+	width: 100%;
+	color: #FFFFFF;
+	background-color: #1C1821;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #222235;
+}
+
+footer p {
+	padding: 25px 0px;
+}
+
+/* Responsive */
+
+@media (max-width : 900px) {
+	nav {
+		display: none;
+	}
+
+	#icono-nav{
+		border-radius: 50%;
+		display: table;
+		position: absolute;
+		top: 20px;
+		right: 15px;
+		cursor:pointer;
+		color: #FFFFFF;
+		padding: 10px;
+	}
+
+	#main {
+		background-color: #2D2735; 
+		padding: 55px 0px;
+
+	}
+
+	.principal {
+		background: url(../image/header-image.jpg) no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: auto;
+		padding: 75px 150px;
+	}
+
+	.info-main {
+		width: 100%;
+		background-color: #1C1821;
+		color: #FFFFFF;
+		text-align: center;
+		margin: auto 0;
+	}
+
+	.info-main h1{
+		font-size: 90px;
+		font-family: 'Courgette';
+		color: #F7BA6A;
+		padding: 40px 0px;
+	}
+
+	.info-main p{
+		padding-bottom: 30px;
+	}
+
+	.info-main a{
+		text-decoration: none;
+		color: #FFFFFF;
+		padding: 0px 20px 0px 20px;
+		font-style: italic;
+	}
+
+	.info-main a:hover{
+		color: #F7B96A;
+	}
+}
+
+@media (max-width: 600px) {
+	#adicional .col-5 {
+		display: none;
+	}
+
+	.info-main h1{
+		font-size: 3em;
+		font-family: 'Courgette';
+		color: #F7BA6A;
+		padding: 40px 0px;
+	}
+
+	.info-main p{
+		font-size: 1em;
+		padding-left: 0px 10px 30px 0px;
+	}
+
+
+	#articulos {
+		width: 100%;
+		height: auto;
+		text-align: center;
+		background-color: #2D2735;
+	}
+
+	.art{
+		margin: 4px 10px;
+		padding-bottom: 10px;
+		background-color: #1C1821;
+	}
+}
+
+
+
